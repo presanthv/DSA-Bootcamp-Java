@@ -6,7 +6,7 @@ In this case, you want some way to ensure that a subclass does, indeed, override
 to this problem is the abstract method.
 You can require that certain methods be overridden by subclasses by specifying the abstract type modifier.
 
-        abstract type name(parameter-list);
+        abstract return-type name(parameter-list);
 
 These methods are sometimes referred to as subclass's responsibility because they have no implementation specified in
 the superclass.
